@@ -1,0 +1,60 @@
+body {
+  background-color: orangered;
+  width:1800px; /* The width is fixed by pixels */
+  height:1200px; /* The height is fixed by pixels*/
+}
+#title {
+  font-size: xx-large;
+  text-align: center;
+  padding: 5px;
+}
+/* Text */
+h1 {
+  border: double blue;
+  padding: 3px;
+}
+/* Layout */
+#floatLeft {
+  float: left;
+  margin: 20px;
+}
+#floatRight {
+  margin: 20px;
+  float: right;
+}
+#clearfix {
+  overflow: auto;
+}
+.whitebox {
+  border: solid black 1px;
+  padding: 8px;
+  background-color: white;
+  width: 280px;
+  height: 236px;
+}
+/* Menu */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  display: inline;
+  float: right;
+}
+a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+li a:hover {
+  background-color: #111;
+}

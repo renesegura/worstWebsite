@@ -1,0 +1,68 @@
+body {
+  background-color: orangered;
+  width:1800px; /* The width is fixed by pixels */
+  height:1200px; /* The height is fixed by pixels*/
+}
+#title {
+  font-size: xx-large;
+  text-align: center;
+  padding: 5px;
+}
+/* Photo Gallery */
+.responsive {
+  /* top and bottom/ left and right */
+  padding: 0 6px; 
+  float: left;
+  /* width: 24.999%; */
+}
+.photoGallery {
+  border: 1px solid #333;
+}
+.card {
+  position: relative;
+  display: inline-block;
+  margin: 50px;
+}
+.card .img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.card:hover .img-top {
+  display: inline;
+}
+
+.description {
+  padding: 15px;
+  text-align: center;
+}
+/* Image Hover */
+
+/* Menu */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  display: inline;
+  float: right;
+}
+a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+li a:hover {
+  background-color: #111;
+}
